@@ -1,0 +1,12 @@
+.about-div {
+  width: 70%;
+  margin: 2rem auto;
+}
+.about-div h1 {
+  margin-bottom: 10px;
+  color: #619d98;
+}
+.about-div p {
+  letter-spacing: 1px;
+  color: grey;
+}

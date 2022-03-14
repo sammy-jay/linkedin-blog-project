@@ -1,0 +1,25 @@
+nav {
+  width: 100vw;
+  padding: 20px;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  display: flex;
+  width: max-content;
+  justify-content: center;
+  align-items: baseline;
+}
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+nav li {
+  color: #fff;
+  list-style-type: none;
+  margin: 0 5px;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  font-weight: 600;
+}

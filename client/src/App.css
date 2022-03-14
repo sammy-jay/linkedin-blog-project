@@ -1,0 +1,26 @@
+h1 {
+  margin: 1rem auto 0;
+  letter-spacing: 2px;
+  font-size: 2rem;
+  text-align: center;
+}
+.home-div {
+  display: grid;
+  grid-template-columns: 66% 33%;
+}
+.articles-list {
+  width: 100%;
+  margin-top: 2rem;
+}
+.sidebar {
+  margin-top: 2rem;
+}
+@media screen and (min-width: 900px) {
+  .articles-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+
+    align-items: flex-start;
+  }
+}
